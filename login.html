@@ -6,24 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="../Sprint/estilos.css">
+    
 </head>
 
-<body>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <form id="form-login">Iniciar sesion
+<body id="cuerpoLog">
+    <header id="contCabecera1">
         <div>
+            <img id="imgCenter1" src="../Sprint/logo.png">
+        </div>
+    </header>
+    <form id="form-login">
+        <label id="titLogin">Iniciar sesión</label>
+        <div id="cabLogin">
             <br>
-            <label for="username">username:</label>
+            <label for="username">Username:</label>
             <br>
             <input type="text" id="username" name="username">
             <br>
-            <label for="contrasena">contrasena:</label>
+            <br>
+            <label for="contrasena">Contraseña:</label>
             <br>
             <input type="password" id="contrasena" name="contrasena">
             <br>
+            <br>
             <input type="submit" name="btn-submit-form" id="btn-submit-form">
+            <br>
+            <br>
         </div>
     </form>
+    <script src="js/form.js"></script>
 </body>
 
 </html>

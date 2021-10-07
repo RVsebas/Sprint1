@@ -6,30 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sprint1</title>
-    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="../Sprint/estilos.css">
 </head>
 
-<body>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <form id="form-registro">Registro
+<body id="cuerpo">
+    <header id="contCabecera1">
         <div>
+            <img id="imgCenter1" src="../Sprint/logo.png">
+        </div>
+    </header>
+
+    <form id="form-registro">
+        <label id="titRegistro">Registrate</label>
+        <br>
+        <div id="cabRegistro">
+            <br>
+            <label for="rol">¿Comó desea registrase?</label>
+            <select name="rol" id="rol">
+                <option>Seleccione el rol para registrarse</option>
+                <option>Proveedor. (Yo como proveedor, quiero proporcionar materias primas o productos.)</option>
+                <option>Usuario. (Yo como usuario, quiero ver, comprar o experimentar la calidad de los productos.)</option>
+            </select>
+            <br>
             <br>
             <label for="username">Username:</label>
             <br>
             <input type="text" id="username" name="username">
             <br>
+            <br>
             <label for="password">Contraseña:</label>
             <br>
             <input type="password" id="password" name="password">
             <br>
+            <br>
             <label for="pregunta_de_seguridad">Pregunta de seguridad:</label>
             <br>
             <select name="pregunta_de_seguridad" id="pregunta_de_seguridad">
+                <option>Seleccione la pregunta</option>
                 <option>¿Nombre de mi primera mascota?</option>
                 <option>¿Institucion donde culmine mi bachiller?</option>
                 <option>¿Direccion de recidencia favorita?</option>
                 <option>Tengo otra respuesta</option>
             </select>
+            <br>
             <br>
             <label for="respuesta_de_seguridad">Respuesta de seguridad:</label>
             <br>
@@ -39,8 +58,15 @@
             <button type="text" id="btn-registrar">Registrarse</button>
             <br>
             <a href="login.html" target="_blank" id="enlace-login">Login</a>
+
+            <!-----Codigos corregidos---->
+            <!---
+            <a href="login.html" target="_blank" id="enlace-login">Login</a>
+            <a href="login.html" target="_blank" id="form-login">Login</a>
+            <input type="submit" name="btn-submit-form" id="btn-submit-form">---->
         </div>
     </form>
+<script src="../Sprint/form.js"></script>
 </body>
 
 </html>

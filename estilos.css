@@ -1,0 +1,118 @@
+/*coloca color al div de la cabecera en la pagina*/
+#contCabecera1{
+    background-color:rgb(22, 23, 97) ;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    }
+    /*centra la imagen en el div que contiene la imagen*/
+#imgCenter1{
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+
+    }
+/* Coloca el color al 100% de la cabecera magin 0 left y margin 0 right*/
+body,header,div{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    }
+/*Centra el formulario en la body*/    
+#form-registro{
+    margin-top: 35px;
+    text-align: center;
+    height: 800px;
+    margin-top: 0%;
+    font-family: Futura Bk BT;
+    font-weight: bold;
+    position: relative; bottom: -20px;
+}
+
+#cabRegistro{
+    background-color: rgb(34, 219, 210);
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10px;
+    border-left: powderblue 4px solid;
+    border-bottom: powderblue 4px solid;
+    border-right: powderblue 4px solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+#titRegistro{
+    font-size: 45px;
+    font-family: Futura Md BT;
+    font-weight: lighter;
+    text-align: center;
+    color: whitesmoke;
+    padding-left: 100px;
+    padding-right: 103px;
+    padding-bottom: 10px;
+    background-color: rgb(22, 23, 97);
+    border-top: powderblue 4px solid;
+    border-left: powderblue 4px solid;
+    border-right: powderblue 4px solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative; right: -4px;
+}
+#cuerpo{
+    background-color: rgb(68, 147, 212);
+}
+#pregunta_de_seguridad{
+    width: 200px;
+}
+#rol{
+    width: 100px;
+
+}
+
+/*-----------ESTILOS DEL LOGIN-------------*/
+
+#form-login{
+    margin-top: 35px;
+    text-align: center;
+    height: 800px;
+    margin-top: 0%;
+    font-family: Futura Bk BT;
+    font-weight: bold;
+    position: relative; bottom: -20px;
+}
+
+#cabLogin{
+    background-color: rgb(34, 219, 210);
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10px;
+    border-left: powderblue 4px solid;
+    border-bottom: powderblue 4px solid;
+    border-right: powderblue 4px solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+#titLogin{
+    font-size: 45px;
+    font-family: Futura Md BT;
+    font-weight: lighter;
+    text-align: center;
+    color: whitesmoke;
+    padding-left: 69px;
+    padding-right: 69px;
+    padding-bottom: 10px;
+    background-color: rgb(22, 23, 97);
+    border-top: powderblue 4px solid;
+    border-left: powderblue 4px solid;
+    border-right: powderblue 4px solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative; right: -4px;
+}
+
+#cuerpoLog{
+    background-color:rgb(68, 147, 212);
+}
