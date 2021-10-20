@@ -16,7 +16,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    background-color: #fb2056;;
+    background-color: #168fbf;;
     padding: 1rem 2rem;
     border-radius: 20px;
     display: inline-block;
@@ -27,6 +27,11 @@ body{
 
 .frase {
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #258dff;
 }
 
 /* terminan clases reutilizables */
@@ -34,7 +39,7 @@ body{
 /* comienza primera sección */
 
 #primera-seccion {
-    background: linear-gradient(rgba(68, 13, 13, 0.35), rgba(38,2,2,0.446)), url(./assets/fondos/primera_seccion/fondo-primera.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(68, 13, 13, 0.35), rgba(38,2,2,0.446)), url(./assets/fondos/primera_seccion/impresion3D1.jpg) no-repeat center/cover;
     background-attachment: fixed;
     height: 100vh;
     color: white;
@@ -64,7 +69,7 @@ nav > a {
 }
 
 nav > a:hover {
-    color: #fb2056;
+    color: #168fbf;
 }
 
 #primera-seccion-contenido {
@@ -83,8 +88,8 @@ nav > a:hover {
 }
 
 #primera-seccion-contenido > hr {
-    width: 4.5rem;
-    border-color: #fb2056;
+    width: 13rem;
+    border-color: #40be9a;
 }
 
 #primera-seccion-contenido > h1 {
@@ -134,8 +139,8 @@ nav > a:hover {
     }
 
     #titulo > hr {
-        width: 4.5rem;
-        border-color: #fb2056;
+        width: 13rem;
+        border-color: #40be9a;
     }
 
     #container-tercera-seccion{
@@ -152,9 +157,14 @@ nav > a:hover {
     .img-tercera > h6 {
         text-align: center;
         font-family: 'Montserrat', sans-serif;
-        font-size: 1.3rem;
+        font-size: 2rem;
         font-weight: 700;
-        margin-bottom: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .img-tercera > hr{
+        border-color: #40be9a;
     }
 
     .img-tercer > p {
@@ -164,6 +174,15 @@ nav > a:hover {
     .img-tercera > img {
         max-width: 100%;
     }
+    
+    #txtRoles{
+        text-align: justify
+    }
+
+    #txtNegrita{
+        text-size-adjust: auto;
+    }
+
 
 
 /* termina tercera sección */
@@ -171,7 +190,7 @@ nav > a:hover {
 /* comienza cuarta sección */
 
     #cuarta-seccion{
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.905)), url(./assets/fondos/cuarta_seccion/fondo_cuarta.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.905)), url(./assets/fondos/cuarta_seccion/impresion3D5.jpg) no-repeat center/cover;
         background-attachment: fixed;
         height: 100vh;
         color: white;
@@ -190,23 +209,42 @@ nav > a:hover {
         width: 50%;
     }
 
+    #cuarta-seccion-izq > h3{
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        color: #258dff;
+    }
+    #cuarta-seccion-izq > p {
+        margin-bottom: 4rem;
+        font-size: larger;
+        text-align: justify;
+    }
+
+
     #cuarta-seccion-der > h3 {
         text-transform: uppercase;
         font-family: 'Montserrat', sans-serif;
         font-size: 2.5rem;
         font-weight: 700;
         margin-bottom: 1.5rem;
+        color: #258dff;
     }
 
-    #cuarta-seccion-der > hr {
-        width: 4.5rem;
-        border-color: #fb2056;
-        margin-left: 0;
-        margin-bottom: 3rem;
+    .verticalLine {
+        border-left: solid #40be9a;
+        margin-left: 2.5rem; 
+        margin-right: 2.5rem;
+        margin-bottom: 2.5rem;
+        margin-top: 2.5rem;
     }
 
     #cuarta-seccion-der > p {
+        font-size: larger;
         margin-bottom: 4rem;
+        text-align: justify;
     }
 
 /* termina cuarta sección */
@@ -253,8 +291,8 @@ nav > a:hover {
 }
 
 #quinta-seccion-izquierda > hr {
-    width: 4.5rem;
-    border-color: #fb2056;
+    width: 13rem;
+    border-color: #40be9a;
     margin-left: 0;
     margin-bottom: 3rem;
 }
@@ -363,4 +401,17 @@ footer {
         align-items: center;
     }
 
+
+}
+#logofooter1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 28.6rem ;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    
+    
+    
 }
